@@ -1,6 +1,6 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=C:\Flutter
-FLUTTER_APPLICATION_PATH=C:\Bitnami\nginx\html\Multi Restaurants Flutter App
+FLUTTER_APPLICATION_PATH=C:\Bitnami\nginx\html\flutter
 FLUTTER_TARGET=lib\main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build\ios

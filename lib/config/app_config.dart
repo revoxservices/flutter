@@ -69,7 +69,6 @@ class Colors {
   }
 
   Color scaffoldColor(double opacity) {
-    // TODO test if brightness is dark or not
     return _scaffoldColor.withOpacity(opacity);
   }
 }

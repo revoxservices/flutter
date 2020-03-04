@@ -12,7 +12,7 @@ import 'package:location/location.dart';
 Future<Stream<Restaurant>> getTopRestaurants() async {
   User _user = await getCurrentUser();
   final String _apiToken = 'api_token=${_user.apiToken}';
-  final String url = '${GlobalConfiguration().getString('api_base_url')}restaurants?$_apiToken';
+  final String url = '${GlobalConfiguration().getString('api_base_url')}restaurantst?$_apiToken';
 
   final client = new http.Client();
   final streamedRest = await client.send(http.Request('get', Uri.parse(url)));

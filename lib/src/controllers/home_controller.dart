@@ -16,10 +16,10 @@ class HomeController extends ControllerMVC {
   List<Food> trendingFoods = <Food>[];
 
   HomeController() {
-    //listenForCategories();
-    //listenForTopRestaurants();
-    //listenForRecentReviews();
-    //listenForTrendingFoods();
+    listenForCategories();
+    listenForTopRestaurants();
+    listenForRecentReviews();
+    listenForTrendingFoods();
   }
 
   void listenForCategories() async {
